@@ -1,0 +1,31 @@
+#stella {
+    background-color: AntiqueWhite;
+  }
+  #welcome {
+    text-align: center;
+  }
+  #types {
+    text-align: center;
+    border: 3px solid;
+    border-color: #b0c4de;
+  }
+  #rlc {
+    text-align: center;
+    list-style-position: inside;
+  }
+  #price {
+    text-align: center;
+    border: 3px solid;
+    border-color: #b0c4de;
+  }
+  #meaning {
+    text-align: center;
+    border: 3px solid;
+    border-color: #b0c4de;
+  }
+  #picture {
+    text-align: center;
+    border: 3px solid;
+    border-color: #b0c4de;
+  }
+  
