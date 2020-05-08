@@ -29,7 +29,7 @@ table.center {                      /*Added by Hank, this class centers tables*/
 
 .txtcenter {                        /*Added by hank, this class center aligns text*/
     text-align: center;
-}
+
 
 .fcb-font {                         /*Edit added by Jackie*/
     color:blue;
@@ -40,4 +40,12 @@ table.center {                      /*Added by Hank, this class centers tables*/
     color:lightcoral;
     font-size: 18px;
     text-align: center;
+}
+h3 {                                /*Added by Abd*/
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  border: 1px solid powderblue;
+  padding: 30px;
+  margin: 50px;
 }
