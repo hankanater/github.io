@@ -30,3 +30,8 @@ table.center {                      /*Added by Hank, this class centers tables*/
 .txtcenter {                        /*Added by hank, this class center aligns text*/
     text-align: center;
 }
+
+.fcb-font {                         /*Edit added by Jackie*/
+    color:blue;
+    font-size: 28px;
+}
