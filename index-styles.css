@@ -17,3 +17,16 @@ table, th, td {                     /*Added by Hank, this changes the border aro
     margin-left: auto;
     margin-right: auto;
 }
+
+#imgrounded {                       /*Added by Hank, this id rounds an image - used by my 1917 poster*/
+   border-radius: 5%;
+}
+
+table.center {                      /*Added by Hank, this class centers tables*/
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.txtcenter {                        /*Added by hank, this class center aligns text*/
+    text-align: center;
+}

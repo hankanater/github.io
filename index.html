@@ -4,8 +4,11 @@
 <title>Team 3</title>
 <link href="index-styles.css" rel="stylesheet" type="text/css"> <!--Hank added this-->
 <style>
-  h1 {color:darkslategray;} 
-</style> <!--Hank added this-->
+  h1 {color:darkslategray;}
+  img:hover {
+    opacity: 70%;
+  }
+</style> <!--Hank added this, changes h1's to a dark gray and when you hover over a image it goes to 70% opacity-->
 </head>
 <body>
     <hr>
@@ -206,7 +209,9 @@
 
   <div>
     <h2>1917</h2>
-    <img src="https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg" width="500" class="imgcenter">
+    <a href="https://www.imdb.com/title/tt8579674/"> <!--this image will link to the imdb page of this movie-->
+      <img src="https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_.jpg" width="500" class="imgcenter" id="imgrounded">
+    </a>
 
   <p>Since being stuck at home I've been able to watch a few different movies. 
     1917 was a movie I was looking forward to seeing and it was really good. 1917 is a WWI movie about two British soldiers having to run across the frontlines to deliver a message to call of a planned attack due to high casualty loss. 
@@ -215,11 +220,13 @@
     The soundtrack of the movie was amazing as well as the visuals in this movie. It was filmed to look like a single continuous shot which made it feel like as the view you were following them.
   </p>
   </div>
-  <p><strong>1917 is a <span style="background-color: gold;">9/10</span></strong></p>
+  <p class="txtcenter"><strong>1917 is a <span style="background-color: gold;">9/10</span></strong></p>
 
   <div>
-    <em>Other movies I have watched during quarantine</em>
-    <table>
+    <p class="txtcenter">
+      <em>Other movies I have watched during quarantine</em>
+    </p>
+    <table class="center">
       <tr>
         <th>Movie</th>
         <th>Year released</th>
