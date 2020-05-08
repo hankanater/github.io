@@ -7,3 +7,13 @@ table, th, td {                     /*Added by Hank, this changes the border aro
     padding: 5px;
 }
 
+.hanks-font {                       /*Added by Hank, this makes the font larger and tries to select Helvetica, if Helvetica isn't supported than it picks an available sans-serif*/
+    font-size: x-large;
+    font-family: Helvetica, sans-serif;
+}
+
+.imgcenter {                        /*Added by Hank, this centers an image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
