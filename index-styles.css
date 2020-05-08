@@ -35,3 +35,9 @@ table.center {                      /*Added by Hank, this class centers tables*/
     color:blue;
     font-size: 28px;
 }
+
+#fcbinfo {                          /*edit added by Jackie*/
+    color:lightcoral;
+    font-size: 18px;
+    text-align: center;
+}
