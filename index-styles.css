@@ -1,0 +1,9 @@
+table {
+    border-collapse: collapse;      /*Added by Hank*/
+}
+
+table, th, td {                     /*Added by Hank, this changes the border around tables to 1 pixel and makes them gray. Also adds some padding around the text and border*/
+    border: 1px dimgray;
+    padding: 5px;
+}
+
