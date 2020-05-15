@@ -56,13 +56,13 @@ table.center {                      /*Added by Hank, this class centers tables*/
   padding: 10px;
   text-align: center;
 }
-.fleximg {
+.fleximg {                              /*Added by Hank - center's flex*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.single-img {
+.single-img {                           /*Added by Hank*/
     padding: 10px;
 }
