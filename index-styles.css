@@ -56,7 +56,7 @@ table.center {                      /*Added by Hank, this class centers tables*/
   padding: 10px;
   text-align: center;
 }
-.fleximg {                              /*Added by Hank - center's flex*/
+.fleximg {                              /*Added by Hank - centers flex*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
