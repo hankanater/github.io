@@ -23,30 +23,34 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
   img:hover {
     opacity: 70%;
   }
+
+  .hankimages img {
+    width: 100%;
+  }
 </style> <!--Hank added this, changes h1's to a dark gray and when you hover over a image it goes to 70% opacity-->
 </head>
 <body>
     <!--Navbar by Abd-->
-    <ul class="nav nav-tabs justify-content-center">
+    <ul class="nav nav-tabs justify-content-center fixed-top">
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="hankanater.github.io/abd.html">Abd</a>
+                <a class="nav-link active" data-toggle="tab" href="#Abd">Abd</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#hank">Hank</a>
+                <a class="nav-link" data-toggle="tab" href="#Hank">Hank</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#Stella">Stella</a>
+                <a class="nav-link" data-toggle="tab" href="#Stella">Stella</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#Jackie">Jackie</a>
+                <a class="nav-link" data-toggle="tab" href="#Jackie">Jackie</a>
             </li>
         </ul>   
     <hr>
     
-
+<div class="tab-content">
     <!--Abd's edits start Here-->
     <!--This heading utilizes id (border, coloring, etc.)-->
-     
+     <div id="Abd" class="container tab-pane active">
       <h1 id="myH">Gaming..... by Abd</h1>
 
       <!--This heading utilizes hover and opacity-->
@@ -130,9 +134,10 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
         </div>
         <hr>    
     <hr>
-
+  </div>
   <!--Jackie's edits start Here-->
 
+  <div id="Jackie" class="container tab-pane">
   <!--Jackie’s navbar edit is starts here 5.14.2020-->
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <a class="navbar-brand" href="#">Contents</a>
@@ -221,10 +226,12 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 </table>
 
 </div>
-
+</div>
 <!--Jackie's edits end here-->
 
+
 <!--Stella's code starts here-->
+<div id="Stella" class="container tab-pane">
 <h1>Stella's Heading</h1>
 <p>
   <div style="background-color:rgb(233, 104, 136)">
@@ -333,10 +340,12 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
     <h3>Carnation</h3>
     <img src="https://aboutflowers.com/wp-content/uploads/2016/10/AboutFlowers_S600carnation_Dianthus-Alcazar-Du%CC%88mmenOrange.jpg" width="280" height="280">
     </body>
+  </div>
 <!--Stella's code ends here-->
 
 
 <!--Hank's code starts here-->
+<div id="Hank" class="container tab-pane">
 <div class="hanks-font" id="hank">
   <h1 style="background-color:GoldenRod;">Hank's Quarantine Movie Review</h1>
 
@@ -445,26 +454,25 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
         <div class="col" style="background-color: lightsalmon;">5</div>
       </div>
       <div class="row">
-        <div>
-          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg" width="200px">
+        <div class="col hankimages">
+          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg">
         </div>
-        <div>
-          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg" width="200px">
+        <div class="col hankimages">
+          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg">
         </div>
-        <div>
-          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg" width="200px">
+        <div class="col hankimages">
+          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg">
         </div>
-        <div>
-          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg" width="200px">
+        <div class="col hankimages">
+          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg">
         </div>
-        <div>
-          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg" width="200px">
-        </div>
-        <div>
-          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg" width="200px">
+        <div class="col hankimages">
+          <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg">
         </div>
       </div>
     </div>
+  </div>
 <!--Hank's code ends here-->
+</div>
 </body>
 </html>
