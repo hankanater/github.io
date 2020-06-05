@@ -129,7 +129,38 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
           </div>
         </div>                                                                  
         </div>
-        <hr>    
+        <hr>
+        <p id="demo">Types of Gamers:</p>
+
+        <script>
+        var gamers = ["Competitive Gamer", "Backseat Gamer", "Destructive Gamer", "Social Gamer"];
+        var i, len, text;
+        for (i = 0, len = gamers.length, text = ""; i < len; i++) {
+          text += gamers[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+        </script>
+         
+        <p id="demo">Now lets see what type of gamer you are...</p>
+        <p>Click the button to get a time-based greeting:</p>
+        <button onclick="myFunction()">Try it</button>
+        <script>
+        function myFunction() {
+          var gamer = ["Competitive Gamer", "Backseat Gamer", "Destructive Gamer", "Social Gamer"];
+          var name;
+          var time = Math.floor((Math.random() * 4) + 1);;
+          if (time = 0) {
+            name = gamer[0];
+          } else if (time = 1) {
+            name = gamer[1];
+           } else if (time = 2) {
+            name = gamer[2];
+          } else {
+            name = gamer[3];
+          }
+          document.getElementById("demo").innerHTML = name;
+        }
+        </script>
     <hr>
 
   <!--Jackie's edits start Here-->
@@ -591,7 +622,7 @@ document.getElementById("fcbplayersorder").innerHTML = text;
           <img src="https://s3-prod.chicagobusiness.com/s3fs-public/frog-WEB_i.jpg" width="200px">
         </div>
       </div>
-<!--Hank's javascript-->
+
       <br>
     <h2>Hank's Javascript Section</h2>
     <h3>Add two numbers</h3>
@@ -612,7 +643,7 @@ document.getElementById("fcbplayersorder").innerHTML = text;
 
     <p id="showMore"></p>
 
-<!--End of Hank's Javascript-->
+
     </div>
 
     
