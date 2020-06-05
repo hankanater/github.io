@@ -1,4 +1,4 @@
-function calculate() {
+function calculate() {              // Hank - gets 2 numbers entered in from the webpage and adds them
     var field1=document.getElementById("num1").value;
     var field2=document.getElementById("num2").value;
 
@@ -11,7 +11,7 @@ function calculate() {
 
   
 
-  function horror() {
+  function horror() {                       //Hank - creates an array of 5 movies and prints them out with suffixes
 
     var horrorMovies = ["Us", "Hereditary", "A Quiet Place", "IT", "Midsommar"];
   
@@ -34,6 +34,7 @@ function calculate() {
   
       console.log("My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i]);
 
-    document.getElementById("showMore").innerHTML="My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i];
+      document.getElementById("showMore").innerHTML="My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i];
+
   }
 }
