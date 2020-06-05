@@ -32,7 +32,7 @@ function calculate() {              // Hank - gets 2 numbers entered in from the
           suffix = "th";
       }
   
-      console.log("My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i]);
+      console.log("My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i]);   
 
       document.getElementById("showMore").innerHTML="My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i];
 
