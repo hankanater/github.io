@@ -34,7 +34,11 @@ function calculate() {              // Hank - gets 2 numbers entered in from the
   
       console.log("My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i]);   
 
-      document.getElementById("showMore").innerHTML="My " + counter + suffix + " favorite recent horror movies is " + horrorMovies[i];
+      document.getElementById("showMore").innerHTML="My 1st favorite recent horror movies is " + horrorMovies[0];
+      document.getElementById("showMore2").innerHTML="My 2nd favorite recent horror movies is " + horrorMovies[1];
+      document.getElementById("showMore3").innerHTML="My 3rd favorite recent horror movies is " + horrorMovies[2];
+      document.getElementById("showMore4").innerHTML="My 4th favorite recent horror movies is " + horrorMovies[3];
+      document.getElementById("showMore5").innerHTML="My 5th favorite recent horror movies is " + horrorMovies[4];
 
   }
 }
