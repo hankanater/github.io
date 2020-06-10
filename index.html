@@ -3,6 +3,8 @@
 <head>
 <title>Team 3</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--INSTR: In general, you want to add your own customized styles after the generic bootstrap stuff unless you specifically want the bootstrap ones to load after yours. If you specify something for <body> for example, it'll be overwritten by any property in bootstrap's <body> style. -->
+<!--INSTR: Also, if you can, please add indents to this document consistently. These things are within the <head> tag and so should be indented at least once. Any nesting elements should get an additional level of indentation. -->
 <link href="index-styles.css" rel="stylesheet" type="text/css"> <!--Hank added this-->
 <!-- Bootstrap 4 includes -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -151,11 +153,12 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
           var gamer = ["Competitive Gamer", "Backseat Gamer", "Destructive Gamer", "Social Gamer"];
           var name;
           var time = Math.floor((Math.random() * 4) + 1);;
-          if (time = 0) {
+          //INSTR: I changed the if statements to check whether the value of time equals 0, 1, and 2 with ==. What you had set the value of time to 0, 1, and 2 so the button was only working once. 
+          if (time == 0) {
             name = gamer[0];
-          } else if (time = 1) {
+          } else if (time == 1) {
             name = gamer[1];
-           } else if (time = 2) {
+           } else if (time == 2) {
             name = gamer[2];
           } else {
             name = gamer[3];
@@ -223,8 +226,9 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
   <p> Here are some of the best chants when going to a FC Barcelona match </p> 
   <p id="demo">Ole-le, Ola-la, ser del Barça és el millor que hi ha.</p>
 
-        <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+        <button type="button" onclick="document.getElementById('demo').style.fontSize='35px';">Click Me!</button>
 <!--Jackie's javascript edit for button ends here-->
+<!--INSTR: The reason why this isn't working for the chant line is that you're using "demo" as an id for multiple elements on this page. Change the id to something unique.-->
 
 <!--jackie's edit for javascript statement starts here-->
 <p id="fcbarc"></p>
