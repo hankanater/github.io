@@ -96,7 +96,7 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 
       <p><br>I am totally not a toxic gamer <span style="color:green">toxic</span> gamer.</p> 
       <!--Utilization of the <table> tag can be seen here-->
-      <table border="1" width="500" style = "color:black" align = "center"> 
+      <table border="1" width="500" style = "color:#000000" align = "center"> 
               <tr>
                   <td width="50%">Toxic Gamer</td>
                   <td width="50%">Wholesome Gamer</td>
@@ -122,5 +122,39 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
         </div>                                                                  
         </div>
         <hr>    
+  
+      <!--Use of variable and for loop in this code  by Abd-->
+            <p id="demo">Types of Gamers:</p>
+            <script>
+            var gamers = ["Competitive Gamer", "Backseat Gamer", "Destructive Gamer", "Social Gamer"];
+            var i, len, text;
+            for (i = 0, len = gamers.length, text = ""; i < len; i++) {
+              text += gamers[i] + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+            </script>
+            <hr>
+
+             <!--Use of a combination of a function containing a button to output a var from an array through the use of if statements (by Abd)-->
+            <p id="d">Now lets see what type of gamer you are (Click the button to see...</p>
+            <button onclick="myFunction()">Try it</button>
+            <script>
+            function myFunction() {
+              var gamer = ["Competitive Gamer", "Backseat Gamer", "Destructive Gamer", "Social Gamer"];
+              var name;
+              var time = Math.floor((Math.random() * 4) + 1);;
+              //INSTR: I changed the if statements to check whether the value of time equals 0, 1, and 2 with ==. What you had set the value of time to 0, 1, and 2 so the button was only working once. 
+              if (time == 0) {
+                name = gamer[0];
+              } else if (time == 1) {
+                name = gamer[1];
+               } else if (time == 2) {
+                name = gamer[2];
+              } else {
+                name = gamer[3];
+              }
+              document.getElementById("d").innerHTML = name;
+            }
+            </script>
     <hr>
  
